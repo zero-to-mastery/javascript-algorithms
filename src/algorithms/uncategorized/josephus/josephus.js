@@ -1,4 +1,4 @@
-class Josephus {
+export default class Josephus {
   numberOfSoldiers;
   circleOfSoldiers;
   livingCount;
@@ -119,6 +119,8 @@ knights2.solveVisual();
 const knights3 = new Josephus(8);
 knights3.solveVisual();
 printJosephusSolution(knights3);
+
+printJosephusSolution(new Josephus(40));
 
 // RUN: deno run josephus.js
 
